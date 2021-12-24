@@ -1,3 +1,31 @@
+Big Data Project
+Bhawana Mohta 
+
+Write efficient Spark 
+program using DataFrames and transformations and 
+actions to find the following information:
+
+(a) The 10 most frequent visitors to the White House.
+
+    (NAMELAST, NAMEFIRST) 
+
+ 
+(b) The 10 most frequently visited people in the White House.
+
+     (visitee_namelast, visitee_namefirst) 
+
+(c) The 10 most frequent visitor-visitee combinations.
+
+
+(d) The number of records dropped
+ 
+Solution is a PySpark solution, 
+which can be run by ./bin/submit-spark command.
+
+
+
+
+
 from __future__ import print_function 
 import findspark
 findspark.init()
